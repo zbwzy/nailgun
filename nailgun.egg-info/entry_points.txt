@@ -1,0 +1,11 @@
+[console_scripts]
+assassind = nailgun.assassin.assassind:run
+nailgun_fixtures = nailgun.db.sqlalchemy.fixman:upload_fixtures
+nailgun_syncdb = nailgun.db:syncdb
+nailgund = nailgun.app:appstart
+receiverd = nailgun.rpc.receiverd:run
+statsenderd = nailgun.statistics.statsenderd:run
+
+[nose.plugins.0.10]
+db = nailgun.test.db_plugin:DbPlugin
+

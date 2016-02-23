@@ -1,0 +1,1329 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite name="nosetests" tests="105" errors="100" failures="0" skip="0"><testcase classname="nose.failure.Failure" name="runTest" time="0.000"><error type="exceptions.ImportError" message="No module named fixtures"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\openstack\common\db\sqlalchemy\test_migrations.py", line 30, in <module>
+    from nailgun.openstack.common import test
+  File "D:\fuelproject\nailgun\nailgun\openstack\common\test.py", line 22, in <module>
+    import fixtures
+ImportError: No module named fixtures
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.000"><error type="exceptions.ImportError" message="No module named fixtures"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\openstack\common\test.py", line 22, in <module>
+    import fixtures
+ImportError: No module named fixtures
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.000"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\integration\test_api_doc_generation.py", line 25, in <module>
+    from nailgun.autoapidoc import SampleGenerator
+  File "D:\fuelproject\nailgun\nailgun\autoapidoc.py", line 24, in <module>
+    from nailgun.test.base import reverse
+  File "D:\fuelproject\nailgun\nailgun\test\base.py", line 23, in <module>
+    import mock
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.000"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\integration\test_assassin.py", line 18, in <module>
+    from nailgun.test.base import BaseIntegrationTest
+  File "D:\fuelproject\nailgun\nailgun\test\base.py", line 23, in <module>
+    import mock
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.000"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\integration\test_attributes.py", line 24, in <module>
+    from nailgun.test.base import BaseIntegrationTest
+  File "D:\fuelproject\nailgun\nailgun\test\base.py", line 23, in <module>
+    import mock
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.001"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\integration\test_auth_token.py", line 20, in <module>
+    from nailgun.test.base import BaseAuthenticationIntegrationTest
+  File "D:\fuelproject\nailgun\nailgun\test\base.py", line 23, in <module>
+    import mock
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.000"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\integration\test_capacity_handler.py", line 19, in <module>
+    from mock import patch
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.000"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\integration\test_changes_model.py", line 22, in <module>
+    from nailgun.test.base import BaseIntegrationTest
+  File "D:\fuelproject\nailgun\nailgun\test\base.py", line 23, in <module>
+    import mock
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.001"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\integration\test_charset_issues.py", line 20, in <module>
+    from nailgun.test.base import BaseIntegrationTest
+  File "D:\fuelproject\nailgun\nailgun\test\base.py", line 23, in <module>
+    import mock
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.000"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\integration\test_cluster_changes_handler.py", line 18, in <module>
+    from mock import patch
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.000"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\integration\test_cluster_collection_handlers.py", line 17, in <module>
+    from mock import patch
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.000"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\integration\test_cluster_handler.py", line 19, in <module>
+    from mock import patch
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.000"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\integration\test_cluster_scaling.py", line 17, in <module>
+    from nailgun.test.base import BaseIntegrationTest
+  File "D:\fuelproject\nailgun\nailgun\test\base.py", line 23, in <module>
+    import mock
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nailgun.test.integration.test_db_refresh.TestDBRefresh" name="test_session_update" time="0.627"></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.001"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\integration\test_deployment_error_handling.py", line 20, in <module>
+    from nailgun.test.base import BaseIntegrationTest
+  File "D:\fuelproject\nailgun\nailgun\test\base.py", line 23, in <module>
+    import mock
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.001"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\integration\test_fixture_uploading.py", line 24, in <module>
+    from nailgun.test.base import BaseIntegrationTest
+  File "D:\fuelproject\nailgun\nailgun\test\base.py", line 23, in <module>
+    import mock
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.001"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\integration\test_graph_related_handlers.py", line 21, in <module>
+    from nailgun.test.base import BaseIntegrationTest
+  File "D:\fuelproject\nailgun\nailgun\test\base.py", line 23, in <module>
+    import mock
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.000"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\integration\test_horizon_url.py", line 21, in <module>
+    from nailgun.test.base import BaseIntegrationTest
+  File "D:\fuelproject\nailgun\nailgun\test\base.py", line 23, in <module>
+    import mock
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.000"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\integration\test_master_node_settings_handler.py", line 17, in <module>
+    from nailgun.test.base import BaseIntegrationTest
+  File "D:\fuelproject\nailgun\nailgun\test\base.py", line 23, in <module>
+    import mock
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.000"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\integration\test_mellanox_orchestrator_serializer.py", line 24, in <module>
+    from nailgun.test.integration.test_orchestrator_serializer \
+  File "D:\fuelproject\nailgun\nailgun\test\integration\test_orchestrator_serializer.py", line 22, in <module>
+    import mock
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.000"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\integration\test_network_configuration.py", line 17, in <module>
+    from mock import patch
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.000"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\integration\test_network_manager.py", line 19, in <module>
+    from mock import Mock
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.001"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\integration\test_network_models.py", line 26, in <module>
+    from nailgun.test.base import BaseIntegrationTest
+  File "D:\fuelproject\nailgun\nailgun\test\base.py", line 23, in <module>
+    import mock
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.000"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\integration\test_network_validation.py", line 24, in <module>
+    from nailgun.test.base import BaseIntegrationTest
+  File "D:\fuelproject\nailgun\nailgun\test\base.py", line 23, in <module>
+    import mock
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.000"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\integration\test_network_verification_manager.py", line 17, in <module>
+    from nailgun.test import base
+  File "D:\fuelproject\nailgun\nailgun\test\base.py", line 23, in <module>
+    import mock
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.001"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\integration\test_node_allocation_stats_handler.py", line 17, in <module>
+    from nailgun.test.base import BaseIntegrationTest
+  File "D:\fuelproject\nailgun\nailgun\test\base.py", line 23, in <module>
+    import mock
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.000"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\integration\test_node_collection_handlers.py", line 20, in <module>
+    from nailgun.test.base import BaseIntegrationTest
+  File "D:\fuelproject\nailgun\nailgun\test\base.py", line 23, in <module>
+    import mock
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.001"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\integration\test_node_handler.py", line 23, in <module>
+    from nailgun.test.base import BaseIntegrationTest
+  File "D:\fuelproject\nailgun\nailgun\test\base.py", line 23, in <module>
+    import mock
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.000"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\integration\test_node_nic_assignment.py", line 23, in <module>
+    from nailgun.test.base import BaseIntegrationTest
+  File "D:\fuelproject\nailgun\nailgun\test\base.py", line 23, in <module>
+    import mock
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.000"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\integration\test_node_nic_collection_handler.py", line 19, in <module>
+    from nailgun.test.base import BaseIntegrationTest
+  File "D:\fuelproject\nailgun\nailgun\test\base.py", line 23, in <module>
+    import mock
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.001"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\integration\test_node_nic_handlers_w_bonding.py", line 20, in <module>
+    from nailgun.test.base import BaseIntegrationTest
+  File "D:\fuelproject\nailgun\nailgun\test\base.py", line 23, in <module>
+    import mock
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.000"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\integration\test_notification.py", line 25, in <module>
+    from nailgun.test.base import BaseIntegrationTest
+  File "D:\fuelproject\nailgun\nailgun\test\base.py", line 23, in <module>
+    import mock
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.001"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\integration\test_orchestrator_handlers.py", line 21, in <module>
+    from mock import patch
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.000"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\integration\test_orchestrator_serializer.py", line 22, in <module>
+    import mock
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.001"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\integration\test_plugins_api.py", line 18, in <module>
+    import mock
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.000"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\integration\test_provisioning.py", line 17, in <module>
+    from mock import patch
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.001"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\integration\test_provisioning_serializer.py", line 20, in <module>
+    from nailgun.test.base import BaseIntegrationTest
+  File "D:\fuelproject\nailgun\nailgun\test\base.py", line 23, in <module>
+    import mock
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.000"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\integration\test_public_api.py", line 18, in <module>
+    from nailgun.test.base import BaseAuthenticationIntegrationTest
+  File "D:\fuelproject\nailgun\nailgun\test\base.py", line 23, in <module>
+    import mock
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.001"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\integration\test_put_same_json.py", line 15, in <module>
+    from mock import patch
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.001"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\integration\test_release_networks_handler.py", line 17, in <module>
+    from nailgun.test.base import BaseIntegrationTest
+  File "D:\fuelproject\nailgun\nailgun\test\base.py", line 23, in <module>
+    import mock
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.001"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\integration\test_removed_handler.py", line 16, in <module>
+    from mock import patch
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.000"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\integration\test_reset_environment.py", line 21, in <module>
+    from nailgun.test.base import BaseIntegrationTest
+  File "D:\fuelproject\nailgun\nailgun\test\base.py", line 23, in <module>
+    import mock
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.000"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\integration\test_roles.py", line 21, in <module>
+    from nailgun.test.base import BaseIntegrationTest
+  File "D:\fuelproject\nailgun\nailgun\test\base.py", line 23, in <module>
+    import mock
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.001"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\integration\test_rpc_consumer.py", line 31, in <module>
+    from nailgun.test.base import BaseIntegrationTest
+  File "D:\fuelproject\nailgun\nailgun\test\base.py", line 23, in <module>
+    import mock
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.000"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\integration\test_stop_deployment.py", line 17, in <module>
+    from mock import patch
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.000"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\integration\test_task_logging.py", line 18, in <module>
+    from mock import patch
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.001"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\integration\test_task_managers.py", line 22, in <module>
+    from mock import patch
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.000"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\integration\test_verify_networks_task_manager.py", line 24, in <module>
+    from nailgun.test.base import BaseIntegrationTest
+  File "D:\fuelproject\nailgun\nailgun\test\base.py", line 23, in <module>
+    import mock
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.001"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\integration\test_volume_manager.py", line 17, in <module>
+    from mock import patch
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.001"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\performance\integration\test_cluster.py", line 18, in <module>
+    from mock import patch
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.001"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\performance\unit\test_cluster_operations.py", line 22, in <module>
+    from nailgun.test.base import fake_tasks
+  File "D:\fuelproject\nailgun\nailgun\test\base.py", line 23, in <module>
+    import mock
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.000"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\performance\unit\test_node_operations.py", line 20, in <module>
+    from nailgun.test.performance.base import BaseUnitLoadTestCase
+  File "D:\fuelproject\nailgun\nailgun\test\performance\base.py", line 32, in <module>
+    from nailgun.test.base import BaseTestCase
+  File "D:\fuelproject\nailgun\nailgun\test\base.py", line 23, in <module>
+    import mock
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.000"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\unit\test_assignment_validator.py", line 17, in <module>
+    from nailgun.test.base import BaseUnitTest
+  File "D:\fuelproject\nailgun\nailgun\test\base.py", line 23, in <module>
+    import mock
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.000"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\unit\test_attributes_generators.py", line 19, in <module>
+    from nailgun.test.base import BaseTestCase
+  File "D:\fuelproject\nailgun\nailgun\test\base.py", line 23, in <module>
+    import mock
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.001"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\unit\test_attributes_plugin.py", line 18, in <module>
+    import mock
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.001"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\unit\test_attributes_validator.py", line 18, in <module>
+    from nailgun.test.base import BaseTestCase
+  File "D:\fuelproject\nailgun\nailgun\test\base.py", line 23, in <module>
+    import mock
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.000"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\unit\test_checknetworkstask.py", line 21, in <module>
+    from nailgun.test.base import BaseIntegrationTest
+  File "D:\fuelproject\nailgun\nailgun\test\base.py", line 23, in <module>
+    import mock
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.001"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\unit\test_cluster_validator.py", line 18, in <module>
+    from mock import Mock
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.001"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\unit\test_data_migration.py", line 18, in <module>
+    from nailgun.test.base import BaseTestCase
+  File "D:\fuelproject\nailgun\nailgun\test\base.py", line 23, in <module>
+    import mock
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.000"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\unit\test_db.py", line 18, in <module>
+    from nailgun.test import base
+  File "D:\fuelproject\nailgun\nailgun\test\base.py", line 23, in <module>
+    import mock
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.000"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\unit\test_db_models.py", line 20, in <module>
+    from nailgun.test.base import BaseTestCase
+  File "D:\fuelproject\nailgun\nailgun\test\base.py", line 23, in <module>
+    import mock
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.001"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\unit\test_deadlock_detector.py", line 28, in <module>
+    from nailgun.test.base import BaseTestCase
+  File "D:\fuelproject\nailgun\nailgun\test\base.py", line 23, in <module>
+    import mock
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.000"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\unit\test_default_ip_addrs.py", line 19, in <module>
+    from nailgun.test import base
+  File "D:\fuelproject\nailgun\nailgun\test\base.py", line 23, in <module>
+    import mock
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.000"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\unit\test_deployment_network_serializer.py", line 15, in <module>
+    from mock import patch
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.001"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\unit\test_deployment_serializer.py", line 15, in <module>
+    import mock
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.001"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\unit\test_expression_parser.py", line 21, in <module>
+    from nailgun.test.base import BaseTestCase
+  File "D:\fuelproject\nailgun\nailgun\test\base.py", line 23, in <module>
+    import mock
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.001"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\unit\test_fuel_key_handler.py", line 18, in <module>
+    from mock import patch
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.001"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\unit\test_graph_serializer.py", line 20, in <module>
+    import mock
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.000"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\unit\test_handlers.py", line 21, in <module>
+    from mock import patch
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nailgun.test.unit.test_load_db_driver_handler.TestLoadDbDriverWithSAExceptions" name="test_sa_enum_constraint" time="0.048"></testcase><testcase classname="nailgun.test.unit.test_load_db_driver_handler.TestLoadDbDriverWithSAExceptions" name="test_sa_not_null_constraint" time="0.030"></testcase><testcase classname="nailgun.test.unit.test_load_db_driver_handler.TestLoadDbDriverWithSAExceptions" name="test_sa_relationship_constraint" time="0.001"></testcase><testcase classname="nailgun.test.unit.test_load_db_driver_handler.TestLoadDbDriverWithSAExceptions" name="test_sa_unique_constraint" time="0.018"></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.001"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\unit\test_logs_handlers.py", line 22, in <module>
+    from mock import Mock
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.002"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\unit\test_middleware_utils.py", line 18, in <module>
+    from nailgun.test.base import TestCase
+  File "D:\fuelproject\nailgun\nailgun\test\base.py", line 23, in <module>
+    import mock
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.000"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\unit\test_migration_cluster_replaced_info.py", line 15, in <module>
+    from nailgun.test.base import BaseIntegrationTest
+  File "D:\fuelproject\nailgun\nailgun\test\base.py", line 23, in <module>
+    import mock
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.000"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\unit\test_nailgun_keystone_auth_middleware.py", line 17, in <module>
+    import mock
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.000"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\unit\test_network_check.py", line 22, in <module>
+    from nailgun.test.base import BaseIntegrationTest
+  File "D:\fuelproject\nailgun\nailgun\test\base.py", line 23, in <module>
+    import mock
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.001"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\unit\test_network_utils.py", line 20, in <module>
+    from nailgun.test.base import BaseUnitTest
+  File "D:\fuelproject\nailgun\nailgun\test\base.py", line 23, in <module>
+    import mock
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.000"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\unit\test_node_assignment_handler.py", line 20, in <module>
+    from nailgun.test.base import BaseIntegrationTest
+  File "D:\fuelproject\nailgun\nailgun\test\base.py", line 23, in <module>
+    import mock
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.000"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\unit\test_node_deletion.py", line 19, in <module>
+    from mock import patch
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.001"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\unit\test_node_disks.py", line 18, in <module>
+    from mock import patch
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.001"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\unit\test_node_groups.py", line 22, in <module>
+    from nailgun.test.base import BaseIntegrationTest
+  File "D:\fuelproject\nailgun\nailgun\test\base.py", line 23, in <module>
+    import mock
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.000"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\unit\test_node_nic_handler.py", line 18, in <module>
+    from nailgun.test.base import BaseIntegrationTest
+  File "D:\fuelproject\nailgun\nailgun\test\base.py", line 23, in <module>
+    import mock
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.000"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\unit\test_notification_collection_handler.py", line 18, in <module>
+    from nailgun.test.base import BaseIntegrationTest
+  File "D:\fuelproject\nailgun\nailgun\test\base.py", line 23, in <module>
+    import mock
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.000"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\unit\test_notification_handler.py", line 18, in <module>
+    from nailgun.test.base import BaseIntegrationTest
+  File "D:\fuelproject\nailgun\nailgun\test\base.py", line 23, in <module>
+    import mock
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.001"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\unit\test_object_plugin.py", line 20, in <module>
+    from nailgun.test import base
+  File "D:\fuelproject\nailgun\nailgun\test\base.py", line 23, in <module>
+    import mock
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.000"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\unit\test_objects.py", line 27, in <module>
+    import mock
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.000"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\unit\test_plugins_serializers.py", line 17, in <module>
+    from nailgun.test import base
+  File "D:\fuelproject\nailgun\nailgun\test\base.py", line 23, in <module>
+    import mock
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.000"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\unit\test_primary_roles_assignment.py", line 19, in <module>
+    from nailgun.test import base
+  File "D:\fuelproject\nailgun\nailgun\test\base.py", line 23, in <module>
+    import mock
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.001"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\unit\test_redeployment_scenarios.py", line 19, in <module>
+    from nailgun.test import base
+  File "D:\fuelproject\nailgun\nailgun\test\base.py", line 23, in <module>
+    import mock
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.000"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\unit\test_release_collection_handlers.py", line 16, in <module>
+    from mock import patch
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.000"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\unit\test_release_handler.py", line 17, in <module>
+    import mock
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.001"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\unit\test_release_networks_schema.py", line 19, in <module>
+    from nailgun.test import base
+  File "D:\fuelproject\nailgun\nailgun\test\base.py", line 23, in <module>
+    import mock
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.001"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\unit\test_release_validator.py", line 18, in <module>
+    from nailgun.test.base import BaseTestCase
+  File "D:\fuelproject\nailgun\nailgun\test\base.py", line 23, in <module>
+    import mock
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.000"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\unit\test_reusage_admin_address.py", line 20, in <module>
+    from nailgun.test import base
+  File "D:\fuelproject\nailgun\nailgun\test\base.py", line 23, in <module>
+    import mock
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.000"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\unit\test_rpc_acknowledge.py", line 17, in <module>
+    import mock
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.001"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\unit\test_settings_config.py", line 22, in <module>
+    from nailgun.test import base
+  File "D:\fuelproject\nailgun\nailgun\test\base.py", line 23, in <module>
+    import mock
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.001"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\unit\test_snapshot_conf.py", line 17, in <module>
+    import mock
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.001"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\unit\test_statistics.py", line 16, in <module>
+    from mock import Mock
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.001"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\unit\test_task.py", line 16, in <module>
+    from mock import patch
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.001"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\unit\test_task_handler.py", line 18, in <module>
+    from nailgun.test.base import BaseTestCase
+  File "D:\fuelproject\nailgun\nailgun\test\base.py", line 23, in <module>
+    import mock
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.000"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\unit\test_task_helpers.py", line 26, in <module>
+    from nailgun.test.base import BaseTestCase
+  File "D:\fuelproject\nailgun\nailgun\test\base.py", line 23, in <module>
+    import mock
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.000"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\unit\test_utils.py", line 17, in <module>
+    from mock import mock_open
+ImportError: No module named mock
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.000"><error type="exceptions.ImportError" message="No module named mock"><![CDATA[Traceback (most recent call last):
+  File "C:\Python27\lib\unittest\case.py", line 329, in run
+    testMethod()
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\Python27\lib\site-packages\nose-1.3.4-py2.7.egg\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "D:\fuelproject\nailgun\nailgun\test\unit\test_version_handler.py", line 17, in <module>
+    from mock import Mock
+ImportError: No module named mock
+]]></error></testcase></testsuite>
